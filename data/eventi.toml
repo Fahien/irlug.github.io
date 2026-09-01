@@ -1,0 +1,1047 @@
+# Archivio storico IrLUG — fonte unica per la pagina /archivio e per il materiale
+# divulgativo (slide, presentazioni). Ogni voce riporta le fonti da cui i dati
+# sono stati ricostruiti, cosi' che un domani si possa verificare o correggere.
+#
+# Fonti ricorrenti:
+#   irlug.org      = sito PHP-Nuke 2003-2005 (Wayback Machine)
+#   altervista     = irlug.altervista.org, sito 2004-2006 (Wayback Machine)
+#   irlug.it/drupal= sito Drupal 2006-2013 (Wayback Machine)
+#   blog           = post sul sito attuale
+#   locandina      = locandina dell'evento conservata in static/img/events/
+#
+# `certezza = "parziale"` segnala i dati ricostruiti ma non completi.
+
+[[evento]]
+anno = 2004
+data = "2004-03-20"
+data_testo = "sabato 20 marzo 2004"
+titolo = "1ª IrLUG Linux Install Fest"
+tipo = "Install Fest"
+citta = "Avellino"
+sede = "IPSIA «Amatucci»"
+indirizzo = "Viale Italia 18, Avellino"
+orario = "16:00 – 19:30"
+descrizione = """
+Il primo evento pubblico del LUG: si porta il proprio computer da casa e si esce \
+con GNU/Linux installato. Reso possibile dalla dirigente scolastica prof.ssa \
+MariaRosaria Mazza."""
+fonti = ["irlug.org"]
+
+[[evento]]
+anno = 2004
+data = "2004-05-29"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157696306042944"
+data_testo = "sabato 29 maggio 2004"
+titolo = "La giornata del Software Libero in Irpinia"
+tipo = "Convegno"
+citta = "Avellino e Montella"
+sede = "IPSIA «Amatucci» e ITC «G. Fortunato» (Avellino); Convento di S. Francesco a Folloni (Montella)"
+orario = "dalle 10:30"
+descrizione = """
+La giornata più ambiziosa dei primi anni: tre sedi in parallelo, relatori nazionali \
+del software libero e, in chiusura, la presentazione del libro *NO SCOpyright – il \
+caso SCO contro Linux* alla libreria Petrozziello di Avellino (Corso Vittorio \
+Emanuele 214, ore 18:30)."""
+con = ["AbelLinux", "XED.IT"]
+fonti = ["irlug.org"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "Software Libero e Mercato Aperto"
+relatori = ["Stefano Maffulli — presidente Free Software Foundation Europe, Chapter Italy"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "Intervento"
+relatori = ["Paolo Didonè — fondatore di Prosa.it"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "Intervento"
+relatori = ["Michele Dalla Silvestra — presidente Italian Linux Society"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "Perché un'azienda sceglie di lavorare solo con il software libero"
+relatori = ["Simone Piccardi — fondatore di Truelite"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "La scelta di tecnologie Open Source nella riprogettazione di una rete aziendale"
+relatori = ["Costantino Cusano — EXEDRE Consulting"]
+
+[[evento.talk]]
+sezione = "Convegno «Sostenibilità economica del Software Libero/Open Source» — IPSIA «Amatucci»"
+titolo = "Reti aperte e sistemi integrati per le scuole"
+relatori = ["Giovanni Franza — AICA, gruppo di lavoro RASIS"]
+
+[[evento.talk]]
+sezione = "Workshop «Introdurre il Software Libero in ufficio» — ITC «G. Fortunato»"
+titolo = "Il contesto tecnologico del software libero"
+relatori = ["Emmanuele Somma — Servizio Studi Banca d'Italia, direttore di Linux Magazine"]
+
+[[evento.talk]]
+sezione = "Workshop «Introdurre il Software Libero in ufficio» — ITC «G. Fortunato»"
+titolo = "Scelgo dunque migro: trarre profitto dal cambiamento"
+relatori = ["Roberto Galoppini — fondatore Acmesolutions.it, presidente Consorzio CIRS"]
+
+[[evento.talk]]
+sezione = "Workshop «Introdurre il Software Libero in ufficio» — ITC «G. Fortunato»"
+titolo = "L'Open Source e la Pubblica Amministrazione di domani"
+relatori = ["Francesco Marchetti-Stasi — Autorità di Vigilanza sui Lavori Pubblici"]
+
+[[evento.talk]]
+sezione = "Workshop «Introdurre il Software Libero in ufficio» — ITC «G. Fortunato»"
+titolo = "Gli aspetti legali del software libero"
+relatori = ["Fabrizio Veutro — avvocato"]
+
+[[evento.talk]]
+sezione = "Conferenza «Software Libero a supporto delle economie povere del mondo» — Montella"
+titolo = "Il software libero: licenze e libertà"
+relatori = ["Leandro Noferini — presidente Associazione Software Libero"]
+
+[[evento.talk]]
+sezione = "Conferenza «Software Libero a supporto delle economie povere del mondo» — Montella"
+titolo = "La libertà dell'uomo contemporaneo"
+relatori = ["Maria Chiara Pievatolo — Università di Pisa"]
+
+[[evento.talk]]
+sezione = "Conferenza «Software Libero a supporto delle economie povere del mondo» — Montella"
+titolo = "Superare il digital divide con il Software Libero"
+relatori = ["Antonella Beccaria — giornalista, Associazione Software Libero"]
+
+[[evento]]
+anno = 2004
+data = "2004-11-27"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157696306308984"
+data_testo = "sabato 27 novembre 2004"
+titolo = "Linux Day 2004"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Aula grande del Palazzo della cultura «Victor Hugo»"
+descrizione = """
+Il primo Linux Day irpino di cui resti il programma completo. Nel pomeriggio, alla \
+sala Internet Point «Informagiovani», la «prova su strada di Linux» aperta ai \
+visitatori."""
+con = ["Italian Linux Society (ILS)"]
+patrocinio = ["Assessorato alle Politiche Giovanili del Comune di Avellino"]
+fonti = ["irlug.org", "altervista"]
+
+[[evento.talk]]
+ora = "10:00"
+titolo = "Introduzione al sistema GNU/Linux"
+relatori = ["Marisa Bruno «Marys» — IrLUG"]
+
+[[evento.talk]]
+ora = "10:30"
+titolo = "Open Office Automation — automazione d'ufficio con strumenti Open Source"
+relatori = ["Nicola Rauseo «djinn» — ILS, Neapolis Hacklab, IrLUG"]
+
+[[evento.talk]]
+ora = "12:00"
+titolo = "Firewall e sistemi liberi"
+relatori = ["Gianluigi Spagnuolo «kirash» — IrLUG"]
+
+[[evento.talk]]
+ora = "12:30"
+titolo = "Distribuzioni live e Knoppix-like"
+relatori = ["Giuseppe Borriello «Bgeppy» — IrLUG, IPSIA «S. Bartoli» Montella"]
+
+[[evento.talk]]
+ora = "13:00"
+titolo = "Linux e cellulari"
+relatori = ["Giuseppe Zoccano «GiZo» — IrLUG, NaLUG"]
+
+[[evento.talk]]
+ora = "15:00"
+titolo = "Usare Octave"
+relatori = ["Pasquale Ceres «Paco» — IrLUG"]
+
+[[evento.talk]]
+ora = "15:40"
+titolo = "Installare Knoppix"
+relatori = ["Giuseppe Borriello «Bgeppy» — IrLUG, IPSIA «S. Bartoli» Montella"]
+
+[[evento.talk]]
+ora = "16:30"
+titolo = "Prova su strada di Linux — sala Internet Point «Informagiovani»"
+relatori = ["a cura dei volontari IrLUG"]
+
+[[evento]]
+anno = 2005
+data = "2005-05-14"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157689431696934"
+data_testo = "sabato 14 maggio 2005"
+titolo = "2ª IrLUG Linux Install Fest"
+tipo = "Install Fest"
+citta = "Avellino"
+sede = "CSA Malepasso"
+indirizzo = "Piazza 23 Novembre, Avellino"
+orario = "15:00 – 19:00"
+descrizione = """
+Seconda e ultima install fest della prima stagione del LUG. Il regolamento \
+distribuito allora — requisiti minimi Pentium II 300 MHz, 64 MB di RAM, 2 GB \
+liberi — è uno dei pochi documenti dell'epoca sopravvissuti per intero."""
+fonti = ["altervista"]
+
+[[evento]]
+anno = 2006
+data = "2006-10-28"
+data_testo = "sabato 28 ottobre 2006"
+titolo = "Linux Day 2006"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Garage Records"
+indirizzo = "Via Guarini, Avellino"
+orario = "10:00 – 13:00"
+certezza = "parziale"
+incertezza = "Il programma era un PDF collegato dal sito e non è stato archiviato."
+descrizione = """
+Il Linux Day che segna la ripartenza dopo la riorganizzazione del gruppo, ed è il \
+primo annunciato dal nuovo sito irlug.it. Il programma di dettaglio era un PDF a \
+parte, che gli archivi non hanno conservato.
+
+Il giorno dopo, sulla mailing list `debian-italian`, Manlio Perillo raccontava: \
+«Un membro del LUG della mia zona (Irlug) ha telefonato a Rai3, e questi sono \
+venuti a fare qualche ripresa. Anzi, uno dei due giornalisti si è preso un CD di \
+Ubuntu». È l'unica traccia rimasta di una copertura televisiva dell'evento."""
+fonti_esterne = ["debian-italian, 29 ottobre 2006"]
+con = ["Italian Linux Society (ILS)"]
+fonti = ["irlug.it/drupal"]
+
+[[evento]]
+anno = 2007
+data = "2007-05-05"
+data_testo = "sabato 5 maggio 2007"
+titolo = "Giornata della Creatività Giovanile"
+tipo = "Partecipazione"
+citta = "Solofra"
+sede = "Centro Sociale di Solofra"
+indirizzo = "Via Melito, Solofra"
+orario = "dalle 14:00"
+descrizione = """
+Seminari su GNU/Linux e software libero, install fest e distribuzione di copie di \
+Ubuntu, all'interno di un evento non informatico: una delle prime uscite del LUG \
+fuori dal proprio giro."""
+con = ["ALE' — Associazione per la Libera Espressione", "Associazione Floyd", "Legambiente"]
+fonti = ["irlug.it/drupal"]
+
+[[evento]]
+anno = 2007
+data = "2007-06-15"
+data_testo = "venerdì 15 giugno 2007"
+titolo = "GNU/LinuxFest — Software Libero: un bene comune"
+tipo = "Partecipazione"
+citta = "Napoli"
+sede = "Santa Maria La Nova"
+orario = "9:00 – 19:00"
+descrizione = """
+Manifestazione a sostegno della proposta di legge regionale che avrebbe introdotto \
+il software libero nella Pubblica Amministrazione campana. Mattina di install fest, \
+retrocomputing e seminari; pomeriggio di dibattito politico. L'IrLUG vi partecipa \
+come parte della rete di associazioni campane."""
+con = ["CoCaOss", "Net-left", "NaLUG", "Hackaserta 81100", "Hop Frog", "Associazione Omega", "kde-it"]
+fonti = ["irlug.it/drupal", "ml@nalug.net"]
+fonti_esterne = ["ml@nalug.net, 1 e 8 giugno 2007"]
+
+[[evento.talk]]
+titolo = "Get Used To Thinking For Yourself — la filosofia del software libero e le sue implicazioni nel vivere quotidiano"
+relatori = ["Mario Torre — IrLUG"]
+nota = "Il talk portato dall'IrLUG alla giornata. Non compare da nessuna parte sui siti del gruppo: lo si sa dalla scaletta pubblicata sulla mailing list del NaLUG, dove gianfilippo ringrazia «GiZo e Mario Torre, che terrà lo speech»."
+
+[[evento]]
+anno = 2007
+data = "2007-10-27"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157689431696904"
+data_testo = "sabato 27 ottobre 2007"
+titolo = "Linux Day 2007"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Garage Records"
+indirizzo = "Via Guarini 3/A, Avellino"
+orario = "16:00 – 20:00"
+descrizione = """
+L'edizione più ricca di contorno della prima epoca: oltre ai talk, install fest, \
+GPG keysigning party, screencast proiettati negli intervalli, postazioni di prova e \
+di videogiochi open source. Ai visitatori venivano distribuiti CD di Ubuntu, \
+software libero per Windows e merchandising IrLUG."""
+con = ["Italian Linux Society (ILS)"]
+fonti = ["irlug.it/drupal", "altervista"]
+
+[[evento.talk]]
+ora = "16:00"
+titolo = "GNU/Linux & l'IrLUG — introduzione"
+relatori = ["Giuseppe Zoccano"]
+
+[[evento.talk]]
+ora = "16:30"
+titolo = "Diventare anonimi con il Free Software — P2P e navigazione anonima"
+relatori = ["Francesco Matarazzo"]
+
+[[evento.talk]]
+ora = "17:00"
+titolo = "FOSS nello sviluppo economico e nella società"
+relatori = ["Cosimo Guglielmucci"]
+
+[[evento.talk]]
+ora = "17:30"
+titolo = "Dark Side of the Skype — 5 buoni motivi per non usarlo più"
+relatori = ["Gianluigi Spagnuolo"]
+
+[[evento.talk]]
+ora = "18:00"
+titolo = "Linux, l'aspetto unitario — come le piccole comunità aiutano la società"
+relatori = ["Hermann Magliacane"]
+
+[[evento.talk]]
+titolo = "Install Fest"
+relatori = ["Saverio Ferrara"]
+
+[[evento]]
+anno = 2008
+data = "2008-10-25"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157689431696844"
+data_testo = "venerdì 24 e sabato 25 ottobre 2008"
+titolo = "Linux Day 2008"
+tipo = "Linux Day"
+citta = "Salerno e Avellino"
+sede = "Università degli Studi di Salerno (24 ottobre); Centro Sociale Samantha della Porta, Avellino (25 ottobre)"
+certezza = "parziale"
+incertezza = """La memoria interna del gruppo colloca l'edizione del Samantha della Porta \
+nel 2009; l'annuncio sul sito e la locandina la datano al 25 ottobre 2008. Se ci fu \
+anche un'edizione nel 2009, non ne resta traccia."""
+descrizione = """
+L'edizione più ambiziosa di quegli anni, e l'unica su due giornate e due province: \
+«unirà gli eventi organizzati separatamente gli scorsi anni in un'unica grande \
+manifestazione». Annunciata sul sito da `tabacco` il 10 ottobre 2008. È anche \
+l'ultima notizia che il sito Drupal fece in tempo a pubblicare: nel giugno 2009 \
+l'indirizzo rispondeva già «Aggiornamento in corso…»."""
+con = ["HCSSLUG — LUG dell'Università di Salerno", "XALUG — Salerno Linux Users Group"]
+sponsor = ["Si.Infor.", "Blustudio Sviluppi", "Libreria Universitaria Minerva"]
+fonti = ["irlug.it/drupal", "locandina fotografata"]
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Proiezione di filmati su GNU/Linux e l'Open Source"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Apertura Linux Day 2008"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Introduzione al Free Software (free as in freedom)"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Le distribuzioni: cosa sono e come nascono"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Progetti F.O.S.S. ieri e oggi"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Panoramica su KDE 4"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno, Facoltà di Scienze MM.FF.NN. (10:00–13:00)"
+titolo = "Il sistema operativo GNU/Linux: un po' di storia"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno (14:30–18:30)"
+titolo = "La virtualizzazione: applicazioni per la sicurezza"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno (14:30–18:30)"
+titolo = "GNU Octave: software per l'analisi numerica"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno (14:30–18:30)"
+titolo = "I formati aperti"
+
+[[evento.talk]]
+sezione = "Venerdì 24 ottobre — Università di Salerno (14:30–18:30)"
+titolo = "Installation party: assistenza nell'installazione e configurazione di software open source"
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "Introduzione a GNU/Linux: cos'è e come nasce"
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "SPIP: CMS in stile open source"
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "WinToLinux: migrazione indolore"
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "Network security assessment"
+nota = "Il nome dello strumento, sulla locandina fotografata, non è leggibile."
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "Internet e webservices"
+
+[[evento.talk]]
+sezione = "Sabato 25 ottobre — Centro Sociale Samantha della Porta, Avellino (16:00–20:00)"
+titolo = "Coreboot, aka Linux BIOS"
+
+
+[[evento]]
+anno = 2009
+data = "2009-02-28"
+data_testo = "sabato 28 febbraio 2009"
+titolo = "Il Software Libero — presentazione a Manocalzati"
+tipo = "Divulgazione"
+citta = "Manocalzati"
+sede = "Informagiovani di Manocalzati"
+orario = "16:30"
+descrizione = """
+Iniziativa personale di Roberto Lenti, socio del LUG, in accordo con l'Informagiovani \
+comunale. Presenti il sindaco Pasquale Tirone, il vicesindaco Carlo Castiglione, \
+Sabino De Benedetto e Sabino Zara. Il resoconto che Lenti scrisse sul forum — \
+applausi sinceri ma pochissimo pubblico, e «scarsa adesione da parte degli stessi \
+iscritti a IrLUG, attivi soprattutto in occasione del Linux Day» — è la \
+testimonianza più onesta del momento difficile che il gruppo stava attraversando."""
+fonti = ["irlug.it/drupal"]
+
+[[evento]]
+anno = 2011
+data = "2011-10-22"
+data_testo = "ottobre 2011"
+titolo = "Linux Day 2011"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "non documentata"
+certezza = "parziale"
+incertezza = """Di questa edizione non resta nulla online: il sito del gruppo era spento \
+dal 2009 e sarebbe tornato solo nel 2013. Data, sede e programma non sono documentati; \
+il 22 ottobre è la data nazionale del Linux Day 2011."""
+descrizione = """
+Il Linux Day torna ad Avellino per iniziativa di Hermann Magliacane, che lo rimette \
+in piedi da solo scrivendo annunci online e sulle riviste locali, e coinvolge come \
+relatori Gennaro «Rino» Ragucci e Patrick Arminio. È l'anello che tiene insieme le \
+due epoche del gruppo: senza, fra il 2008 e il 2013 ci sarebbe solo il vuoto."""
+fonti = ["testimonianza interna"]
+
+[[evento]]
+anno = 2013
+data = "2013-10-26"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157689868249364"
+data_testo = "sabato 26 ottobre 2013"
+titolo = "Linux Day 2013"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Auditorium dell'ex Carcere Borbonico"
+certezza = "parziale"
+incertezza = "La pagina archiviata non riporta la data: il 26 ottobre è la data nazionale del Linux Day 2013."
+descrizione = """
+Il ritorno dopo anni di silenzio. La pagina dell'evento lo dice senza giri di parole: \
+«nel recente passato per alcuni anni la manifestazione è saltata ad Avellino». Da qui \
+riparte la seconda vita del gruppo."""
+fonti = ["irlug.it/drupal"]
+
+[[evento.talk]]
+ora = "15:00"
+titolo = "Benvenuto e introduzione al Free Software"
+relatori = ["Gennaro Ragucci"]
+
+[[evento.talk]]
+ora = "15:30"
+titolo = "Introduzione a Python"
+relatori = ["Patrick Arminio"]
+
+[[evento.talk]]
+ora = "16:00"
+titolo = "Balance Board e postura"
+relatori = ["Giovanni La Motta"]
+
+[[evento.talk]]
+ora = "16:30"
+titolo = "Everybody Makers! (stampa 3D e dintorni)"
+relatori = ["Ivan Acampora", "Gianluca Selis"]
+
+[[evento.talk]]
+ora = "17:20"
+titolo = "Da Thompson a Torvalds: passato, presente e futuro del mondo *nix"
+relatori = ["Felice Fescatore"]
+
+[[evento.talk]]
+ora = "18:00"
+titolo = "Web Server DIY"
+relatori = ["Carmine De Rosa"]
+
+[[evento.talk]]
+ora = "18:30"
+titolo = "Hands on embedded Linux with BeagleBone Black"
+relatori = ["Daniele Costarella"]
+
+[[evento]]
+anno = 2014
+data = "2014-10-25"
+data_testo = "sabato 25 ottobre 2014"
+titolo = "Linux Day 2014"
+tipo = "Linux Day"
+citta = "Mercogliano"
+sede = "Aula Magna dell'Istituto Comprensivo «Mercogliano»"
+indirizzo = "Via Ramiro Marconi, Mercogliano"
+orario = "9:30 – 18:00"
+locandina = "/img/blog/ld2014.jpg"
+descrizione = """
+Per la prima volta il Linux Day irpino esce da Avellino. Giornata intera: mattina \
+divulgativa, pomeriggio tecnico. Fra i relatori anche un alunno dell'ITIS Dorso."""
+patrocinio = ["Comune di Mercogliano"]
+fonti = ["blog"]
+
+[[evento.talk]]
+ora = "9:30"
+titolo = "Saluti istituzionali"
+relatori = ["Maria Goretti Oliviero — dirigente scolastica", "Massimiliano Carullo — sindaco di Mercogliano", "Lucia Sbrescia — assessora alla P.I."]
+
+[[evento.talk]]
+ora = "9:45"
+titolo = "Benvenuto e introduzione al software libero"
+relatori = ["Gennaro Ragucci"]
+
+[[evento.talk]]
+ora = "10:45"
+titolo = "Le libertà digitali"
+relatori = ["Maria Luce Mariniello"]
+
+[[evento.talk]]
+ora = "12:00"
+titolo = "Un'esperienza di utilizzo di Linux nella didattica di sostegno presso l'IC Mercogliano"
+relatori = ["Elena Larkova"]
+
+[[evento.talk]]
+ora = "14:00"
+titolo = "Bitcoin e le criptomonete 2.0"
+relatori = ["Cosimo Guglielmucci"]
+
+[[evento.talk]]
+ora = "14:45"
+titolo = "Il search engine: Elasticsearch"
+relatori = ["Patrick Guido Arminio"]
+
+[[evento.talk]]
+ora = "15:30"
+titolo = "Introduzione ad AngularJS"
+relatori = ["Luigi De Rosa"]
+
+[[evento.talk]]
+ora = "16:15"
+titolo = "L'uso di software libero a scuola"
+relatori = ["un alunno dell'ITIS Dorso"]
+
+[[evento.talk]]
+ora = "16:45"
+titolo = "Linux come firewall/router, proxy e domain controller"
+relatori = ["Gioacchino Rocco"]
+
+[[evento.talk]]
+ora = "17:15"
+titolo = "CMS Open Source"
+relatori = ["Andrea Pastore"]
+
+[[evento]]
+anno = 2015
+data = "2015-03-28"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157690617231345"
+data_testo = "sabato 28 marzo 2015"
+titolo = "Arduino Day 2015"
+tipo = "Arduino Day"
+citta = "Avellino"
+sede = "Complesso monumentale dell'ex Carcere Borbonico"
+orario = "16:00 – 20:00"
+locandina = "/img/blog/arduino_day.jpg"
+sito = "https://web.archive.org/web/20150221214615/http://arduino.irlug.it/"
+sito_etichetta = "sito dell'evento (archiviato)"
+descrizione = """
+Il primo Arduino Day di Avellino, organizzato dall'IrLUG come celebrazione locale del \
+compleanno mondiale della scheda. Nove interventi fra scuole, aziende e maker."""
+fonti = ["blog", "arduino.irlug.it"]
+
+[[evento.talk]]
+titolo = "Benvenuto e introduzione"
+relatori = ["Gennaro Ragucci"]
+
+[[evento.talk]]
+titolo = "AIRQino: un nuovo shield Arduino per la misura della qualità dell'aria"
+relatori = ["Andrea Esposito"]
+
+[[evento.talk]]
+titolo = "Arduino: uno strumento didattico per l'educazione al pensiero computazionale"
+relatori = ["Mauro D'Angelo — Perlatecnica"]
+
+[[evento.talk]]
+titolo = "DOMOHOUSE"
+relatori = ["Pasquale Nocera — ITIS «G. Marconi»", "Pio Francesco Armenante — ITIS «G. Marconi»"]
+
+[[evento.talk]]
+titolo = "Arduino e stampa 3D — le nuove frontiere della robotica homemade"
+relatori = ["Open Makers Italy"]
+
+[[evento.talk]]
+titolo = "IoT and RealSense, the Intel Vision"
+relatori = ["Fabrizio Lapiello"]
+
+[[evento.talk]]
+titolo = "Bluetooth Stereo Hacking"
+relatori = ["Gaetano Pila"]
+
+[[evento.talk]]
+titolo = "Internet delle cose con hardware e software open source"
+relatori = ["Gerardo Di Iorio"]
+
+[[evento.talk]]
+titolo = "Ardux: un robot didattico orientato agli oggetti basato su Arduino e Raspberry Pi"
+relatori = ["Gianfranco Marcarelli"]
+
+[[evento]]
+anno = 2015
+data = "2015-10-24"
+data_testo = "sabato 24 ottobre 2015"
+titolo = "Linux Day 2015"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "TILT"
+indirizzo = "Via Sellitto 17, Avellino"
+orario = "dalle 16:00"
+tema = "Free Software Developers"
+locandina = "/img/events/locandina-linux-day-2015.jpg"
+sito = "https://web.archive.org/web/20151012000537/http://2015.irlug.it/"
+sito_etichetta = "sito dell'evento (archiviato)"
+descrizione = """
+Edizione dedicata a chi il software libero lo scrive, con un «Hacks Showcase» di \
+presentazione progetti a chiudere la giornata. Per l'occasione il LUG mette in piedi \
+un sito dedicato all'evento, 2015.irlug.it."""
+con = ["Rollstudio", "TechCoffee", "Tilt!", "GDG Campania"]
+fonti = ["blog", "locandina", "2015.irlug.it"]
+
+[[evento.talk]]
+titolo = "Polymer e Web Components"
+relatori = ["Vincent De Feo"]
+
+[[evento.talk]]
+titolo = "The Z shell"
+relatori = ["Marco Ferraioli"]
+
+[[evento.talk]]
+titolo = "Bitcoin: sistemi blockchain!"
+relatori = ["Francesco Matarazzo"]
+
+[[evento.talk]]
+titolo = "The road to PHP7"
+relatori = ["Giuseppe Luciano"]
+
+[[evento.talk]]
+titolo = "Hacks Showcase — presentazione progetti"
+relatori = ["partecipanti"]
+
+[[evento]]
+anno = 2016
+data = "2016-05-14"
+data_testo = "sabato 14 maggio 2016"
+titolo = "Arduino Day 2016"
+tipo = "Arduino Day"
+citta = "Cava de' Tirreni"
+sede = "Marte"
+certezza = "parziale"
+incertezza = "Il post che ne parla è un resoconto pubblicato il 14 maggio 2016: la data dell'evento potrebbe essere anteriore."
+locandina = "/img/blog/arduinoday_2016.jpg"
+descrizione = """
+Un'edizione fuori provincia, organizzata dall'HCSSLUG con i ragazzi dell'IrLUG. \
+Video, interviste e album fotografico della giornata furono curati da Coordinate \
+Sonore."""
+con = ["HCSSLUG", "Coordinate Sonore"]
+fonti = ["blog"]
+
+[[evento]]
+anno = 2017
+data = "2017-10-28"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157666889896219"
+data_testo = "sabato 28 ottobre 2017"
+titolo = "Linux Day 2017"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "TILT"
+indirizzo = "Strada Comunale Santo Spirito 8-16, Avellino"
+orario = "16:00 – 19:00"
+tema = "Privacy"
+locandina = "/img/events/locandina-linuxday-2017.png"
+descrizione = """
+Monografica sulla privacy, dai container alla sorveglianza globale, con un intervento \
+giuridico sul trattamento dei dati nell'era dei big data. È la prima edizione di cui \
+il sito conserva le slide."""
+fonti = ["blog"]
+
+[[evento.talk]]
+titolo = "Benvenuto e introduzione"
+relatori = ["Gennaro «Rino» Ragucci"]
+
+[[evento.talk]]
+titolo = "Docker: a software technology providing containers"
+relatori = ["Gaetano Pila"]
+slide = "/slides/linuxday2017/gaetano-pila-docker.pdf"
+
+[[evento.talk]]
+titolo = "Data Economy: se una merce è gratis, allora la merce sei tu!"
+relatori = ["Giuseppe Luciano"]
+slide = "/slides/linuxday2017/giuseppe-luciano-data-economy.pdf"
+
+[[evento.talk]]
+titolo = "La tutela della privacy nell'era dei Big Data"
+relatori = ["Maria Orefice — dottoranda di ricerca in Diritto Costituzionale, Federico II"]
+slide = "/slides/linuxday2017/la-tutela-della-privacy-nell-era-dei-big-data.pdf"
+
+[[evento.talk]]
+titolo = "Poly, la stampante 3D portatile"
+relatori = ["3D-RAP"]
+
+[[evento.talk]]
+titolo = "Privacy e IT Security: come origliano dietro la porta"
+relatori = ["Hermann Magliacane"]
+slide = "/slides/linuxday2017/come-origliano-dietro-la-porta.odp"
+
+[[evento.talk]]
+titolo = "Priva-cy o no? Dai programmi di sorveglianza globale ai tool privacy-aware (parte 1)"
+relatori = ["Antonio Pirozzi — Director @ CSE CybSec Enterprise"]
+slide = "/slides/linuxday2017/priva_cy-o-no-part1.pdf"
+
+[[evento.talk]]
+titolo = "Priva-cy o no? Dai programmi di sorveglianza globale ai tool privacy-aware (parte 2)"
+relatori = ["Angelo Ciampa — ICT Sec. Eng. @ Sanniomatica"]
+slide = "/slides/linuxday2017/priva_cy-o-no-part2.pdf"
+
+[[evento]]
+anno = 2018
+data = "2018-05-13"
+foto = "https://www.flickr.com/photos/140926019@N05/albums/72157696930945265"
+data_testo = "domenica 13 maggio 2018"
+titolo = "Arduino Day 2018"
+tipo = "Arduino Day"
+citta = "Avellino"
+sede = "Ex Carcere Borbonico, Sala «Ripa»"
+indirizzo = "Accesso di fronte alla Chiesa del SS. Rosario, Avellino"
+orario = "dalle 15:00"
+locandina = "/img/events/locandina-arduino-day-2018.png"
+descrizione = """
+Non solo Arduino: Raspberry, IoT, stampa 3D. Otto interventi, metà dei quali portati \
+da scuole superiori della Campania."""
+fonti = ["blog", "locandina"]
+
+[[evento.talk]]
+titolo = "SmartPlant: gestisci il tuo pollice verde con Arduino"
+relatori = ["Hermann Magliacane"]
+slide = "/slides/arduinoday2018/hermann-magliacane.odp"
+
+[[evento.talk]]
+titolo = "IoT — Smart Bag — Healthcare 3.0"
+relatori = ["Fabio Della Sala"]
+
+[[evento.talk]]
+titolo = "GSM Gate"
+relatori = ["ITI «G. Marconi» (SA)"]
+
+[[evento.talk]]
+titolo = "Gulliver, self balancing robot"
+relatori = ["Davide Mele"]
+slide = "/slides/arduinoday2018/selfbalancingrobot.pdf"
+
+[[evento.talk]]
+titolo = "Mani robotiche, esoscheletri e animatroni — automazione e robotica con Arduino"
+relatori = ["DAM Bros Robotics"]
+slide = "/slides/arduinoday2018/dambros.pdf"
+
+[[evento.talk]]
+titolo = "One — l'assistente vocale fai da te"
+relatori = ["Claudio Cama"]
+slide = "/slides/arduinoday2018/assistentefaidate.pdf"
+
+[[evento.talk]]
+titolo = "Ed, la testa parlante"
+relatori = ["IS Rampone Polo (BN)"]
+
+[[evento.talk]]
+titolo = "Arduino PIN Bruteforcer"
+relatori = ["Ethical Hacking Dojo"]
+
+[[evento]]
+anno = 2018
+data = "2018-10-27"
+data_testo = "sabato 27 ottobre 2018"
+titolo = "Linux Day 2018"
+tipo = "Linux Day"
+citta = "Mercogliano"
+sede = "Analist Group"
+indirizzo = "Via Nazionale Torrette 94, Mercogliano"
+orario = "dalle 15:30"
+tema = "World Wild Web"
+locandina = "/img/events/locandina-linux-day-2018.jpg"
+descrizione = """
+Ospitata da un'azienda del territorio. La locandina, disegnata da Noemi Innocente, \
+era anche un marker di realtà aumentata: inquadrandola su irlug.it/ar comparivano \
+contenuti 3D — un esperimento che il sito conserva ancora oggi sotto /old/ar."""
+con = ["Analist Group"]
+media_partner = ["HCSSLUG", "DevDay Avellino"]
+fonti = ["blog", "locandina"]
+
+[[evento.talk]]
+titolo = "Introduzione"
+relatori = ["Gennaro «Rino» Ragucci"]
+slide = "/slides/linuxday2018/intro.pdf"
+
+[[evento.talk]]
+titolo = "Uomo vs Algoritmi"
+relatori = ["Luigi Catuogno"]
+slide = "/slides/linuxday2018/uomini-contro-algoritmi.pdf"
+
+[[evento.talk]]
+titolo = "Termux: turns Android into a Linux development environment"
+relatori = ["Gaetano Pila"]
+slide = "/slides/linuxday2018/termux-gaetano-pila.pdf"
+
+[[evento.talk]]
+titolo = "Self balancing robot, versione 2"
+relatori = ["Davide Mele"]
+slide = "/slides/linuxday2018/self-balancing-robot.pdf"
+
+[[evento.talk]]
+titolo = "Introduzione all'uso di Visual Studio Code"
+relatori = ["Pietro Terracciano"]
+slide = "/slides/linuxday2018/introduzione-vscode.pdf"
+
+[[evento.talk]]
+titolo = "Realtà aumentata & WebApp"
+relatori = ["Giuseppe Luciano"]
+slide = "/slides/linuxday2018/ar_webapps.pdf"
+
+[[evento]]
+anno = 2019
+data = "2019-10-26"
+data_testo = "sabato 26 ottobre 2019"
+titolo = "Linux Day 2019"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Casino del Principe"
+indirizzo = "Corso Umberto I 215, Avellino"
+orario = "dalle 15:30"
+tema = "Intelligenza Artificiale"
+locandina = "/img/events/LD19.png"
+slide_esterne = "https://drive.google.com/drive/folders/1iwENkWrzKgCj-8BkTRC3cBa4IkL8H82L"
+descrizione = """
+Prima edizione con una vera call for talks pubblica, aperta a settembre con scadenza \
+il 12 ottobre. Le slide furono raccolte in una cartella Google Drive condivisa."""
+con = ["Avionica"]
+media_partner = ["HCSSLUG", "DevDay Avellino"]
+fonti = ["blog", "locandina"]
+
+[[evento.talk]]
+titolo = "Benvenuto e introduzione al tema dell'AI"
+relatori = ["Gennaro Ragucci"]
+
+[[evento.talk]]
+titolo = "Linux certification, spingi le tue conoscenze al livello successivo"
+relatori = ["Saverio Fruncillo"]
+
+[[evento.talk]]
+titolo = "Tips & Tricks della mia esperienza Linux"
+relatori = ["Michele Nasti"]
+
+[[evento.talk]]
+titolo = "Open Hospital — software per la gestione ospedaliera open"
+relatori = ["Giuseppe Luciano"]
+
+[[evento.talk]]
+titolo = "Easy REST API con Express.js e MongoDB"
+relatori = ["Gaetano Pila"]
+
+[[evento.talk]]
+titolo = "Sicurezza e protezione dati su Raspberry"
+relatori = ["Orazio Sarno"]
+
+[[evento.talk]]
+titolo = "Perché Rust è il linguaggio del futuro"
+relatori = ["Daniele De Vinco"]
+
+[[evento]]
+anno = 2023
+data = "2023-10-28"
+data_testo = "sabato 28 ottobre 2023"
+titolo = "Linux Day 2023"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "AiBur — Associazione Irpinia Burraco"
+indirizzo = "Via Nazionale Torrette 104, Avellino"
+orario = "dalle 10:00"
+locandina = "/img/events/locandina-linux-day-2023.png"
+descrizione = """
+La seconda ripartenza: dopo il 2019 il Linux Day irpino si ferma per quattro anni. \
+Torna in una sede insolita — la sede di un'associazione di burraco — con prenotazione \
+gratuita su Eventbrite e il supporto all'installazione per chi porta il portatile, \
+che da qui in poi diventa una costante di ogni edizione."""
+fonti = ["blog"]
+
+[[evento.talk]]
+titolo = "Presentazione Linux Day 2023"
+relatori = ["Saverio Fruncillo"]
+
+[[evento.talk]]
+titolo = "Un salto nel passato: retrogaming con Batocera"
+relatori = ["Hermann Magliacane"]
+
+[[evento.talk]]
+titolo = "IPv6: chiariamo i dubbi"
+relatori = ["Saverio Fruncillo"]
+
+[[evento.talk]]
+titolo = "KrakenD: da mostro ad eroe delle tue API"
+relatori = ["Gaetano Pila"]
+
+[[evento.talk]]
+titolo = "I dati della sanità all'interno delle underground (da remoto)"
+relatori = ["Pietro Melillo"]
+
+[[evento.talk]]
+titolo = "Android: posizionamento indoor e outdoor"
+relatori = ["Pietro Terracciano"]
+
+[[evento]]
+anno = 2024
+data = "2024-10-26"
+data_testo = "sabato 26 ottobre 2024"
+titolo = "Linux Day 2024"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Sede della Misericordia"
+indirizzo = "Via Tagliamento 233, Avellino"
+orario = "dalle 15:00"
+locandina = "/img/blog/24-ld-programma.png"
+descrizione = """
+Prima edizione con una call for talks strutturata e con le affiliazioni professionali \
+dei relatori in programma: cloud, DevSecOps, sicurezza, grafica di sistema."""
+fonti = ["blog", "irlug.it/ld24"]
+
+[[evento.talk]]
+ora = "15:00"
+titolo = "Benvenuto"
+
+[[evento.talk]]
+ora = "15:30"
+titolo = "Un viaggio tra le nuvole: la pervasività dell'open source nelle soluzioni Public Cloud"
+relatori = ["Hermann Magliacane — CloudDevOps @ Millennium S.p.A."]
+
+[[evento.talk]]
+ora = "16:00"
+titolo = "REST API semplici e veloci su Ubuntu"
+relatori = ["Pietro Terracciano — Full-Stack .NET Engineer"]
+
+[[evento.talk]]
+ora = "17:00"
+titolo = "Wi-Fi Apocalypse: passato, presente e futuro a rilento"
+relatori = ["Saverio Fruncillo"]
+
+[[evento.talk]]
+ora = "17:30"
+titolo = "Hardening your image with Trivy and Copa"
+relatori = ["Fortunato Alfonso — DevSecOps Engineer"]
+
+[[evento.talk]]
+ora = "18:00"
+titolo = "Lo stack grafico di Linux: dal programmatore ai pixel sullo schermo"
+relatori = ["Antonio Caggiano — Staff Engineer @ Qualcomm"]
+
+[[evento.talk]]
+ora = "18:30"
+titolo = "Privileges… escalated quickly"
+relatori = ["Angelo Ciampa — IT Security Engineer & CTO"]
+
+[[evento]]
+anno = 2025
+data = "2025-10-25"
+data_testo = "sabato 25 ottobre 2025"
+titolo = "Linux Day 2025"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "Sede della Misericordia"
+indirizzo = "Via Tagliamento 233, Avellino"
+orario = "dalle 14:30"
+locandina = "/img/blog/25-ld-programma.jpg"
+descrizione = """
+L'edizione più affollata degli ultimi anni: dieci interventi, dalla web radio alla \
+domotica, dalla crittografia al raytracing, con una classe di scuola secondaria di \
+primo grado sul palco. Quasi tutte le slide sono archiviate sul sito."""
+sponsor = ["Lumaca Irpina", "Skynet"]
+media_partner = ["DNMusic"]
+fonti = ["blog", "locandina"]
+
+[[evento.talk]]
+titolo = "Benvenuto + cos'è Linux e il software open source"
+relatori = ["Hermann Magliacane"]
+slide = "/slides/linuxday2025/0 - Cos'è linux - HM.odp"
+
+[[evento.talk]]
+titolo = "Dal palco al cloud: la nostra WebRadio con Linux e Open Source"
+relatori = ["Domenico De Luca", "Noè Mollica"]
+slide = "/slides/linuxday2025/1 - Talk LinuxDay WebRadio - Domenico De Luca e Noè Mollica.pdf"
+
+[[evento.talk]]
+titolo = "Linux, il motore nascosto della mia casa domotica"
+relatori = ["Simone D'Anna"]
+slide = "/slides/linuxday2025/2 - Linux Smart Home - Simone D'Anna.pdf"
+
+[[evento.talk]]
+titolo = "Dal linguaggio a blocchi alla robotica"
+relatori = ["Luciano Pizzella e Luca Alvino con alunni dell'IC Aurigemma di Monteforte Irpino"]
+slide = "/slides/linuxday2025/3 - Dal linguaggio a blocchi alla robotica.mp4"
+slide_tipo = "video"
+
+[[evento.talk]]
+titolo = "Business e open source: la storia di Geecom"
+relatori = ["Andrea Pastore"]
+slide = "/slides/linuxday2025/5 - Business e opensource la storia di Geecom - Andrea Pastore.pdf"
+
+[[evento.talk]]
+titolo = "SìLinux: abilitiamo il Security-Enhanced!"
+relatori = ["Saverio Fruncillo"]
+slide = "/slides/linuxday2025/6 - SìLinux - Abilitiamo il Security Enhanced - Saverio Fruncillo.pdf"
+
+[[evento.talk]]
+titolo = "Introduzione alla crittografia"
+relatori = ["Pietro Terracciano"]
+slide = "/slides/linuxday2025/7 - Introduzione alla crittografia - Pietro Terracciano.pdf"
+
+[[evento.talk]]
+titolo = "Smells Like Linux Spirit — l'audio e la musica su Linux"
+relatori = ["Daniele Iervolino"]
+
+[[evento.talk]]
+titolo = "Evil «PHackP»: la backdoor è servita"
+relatori = ["Angelo Ciampa"]
+slide = "/slides/linuxday2025/9 - Evil PHackP la backdoor è servita - Angelo Ciampa.pdf"
+
+[[evento.talk]]
+titolo = "Godot hardware accelerated raytracing"
+relatori = ["Antonio Caggiano"]
+slide = "/slides/linuxday2025/10 - Vulkan Raytracing in Godot - Antonio Caggiano.pdf"
+
+[[evento.talk]]
+titolo = "Saluti finali, ringraziamenti e dove raggiungerci"
+slide = "/slides/linuxday2025/11 - Saluti finali ringraziamenti e dove raggiungerci.odp"
+
+[[evento]]
+anno = 2026
+data = "2026-10-24"
+data_testo = "sabato 24 ottobre 2026"
+titolo = "Linux Day 2026"
+tipo = "Linux Day"
+citta = "Avellino"
+sede = "da definire"
+futuro = true
+descrizione = """
+Call for talks aperta il 31 agosto 2026. Ventiquattresimo anno del gruppo, dodicesimo \
+Linux Day irpino documentato."""
+fonti = ["blog"]

@@ -68,6 +68,7 @@ show_default_author = false
 
 main_menu = [
     { name = "blog", url = "blog", trailing_slash = true },
+    { name = "archivio", url = "archivio", trailing_slash = true },
     { name = "old", url = "/old", new_tab = true },
 ]
 

@@ -1,0 +1,190 @@
+{% extends "base.html" %}
+
+{%- block title -%}
+{{ page.title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block description -%}
+    <meta name="description" content="{{ page.description | default(value=config.description) }}">
+{%- endblock -%}
+
+{%- block main -%}
+{% set dati = load_data(path="data/eventi.toml") %}
+{% set eventi = dati.evento %}
+{% set org = load_data(path="data/organizzazione.toml") %}
+{% set conv = load_data(path="data/conversazioni.toml") %}
+{% set n_talk = 0 %}
+{% for e in eventi %}{% set_global n_talk = n_talk + (e.talk | default(value=[]) | length) %}{% endfor %}
+{# Sigle dell'indice: piu' eventi cadono nello stesso anno, l'anno da solo non basta. #}
+{% set sigle = {"Linux Day": "LD", "Arduino Day": "AD", "Install Fest": "IF",
+                "Convegno": "conv", "Partecipazione": "ospiti", "Divulgazione": "div"} %}
+
+<article class="post content archivio">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    {{ page.content | safe }}
+
+    {# Indice della pagina. Gli id vanno tenuti allineati a quelli degli <h2> qui
+       sotto: sono sei e stanno nello stesso file, quindi si aggiornano a mano. #}
+    <p><strong>In questa pagina</strong><br>
+        <a href="#eventi">Eventi</a> ·
+        <a href="#struttura">Come è stata organizzata</a> ·
+        <a href="#conversazioni">Le conversazioni</a> ·
+        <a href="#persone">Le persone</a> ·
+        <a href="#organizzazioni">Le organizzazioni</a> ·
+        <a href="#sedi">Le sedi</a></p>
+
+    <hr />
+    <h2 id="eventi">Eventi</h2>
+
+    <p>{% for e in eventi | reverse %}<a href="#e-{{ e.data }}" title="{{ e.titolo }} — {{ e.citta }}">{{ e.anno }}&nbsp;{{ sigle[e.tipo] | default(value=e.tipo) }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    <p><small>{{ eventi | length }} eventi · {{ n_talk }} interventi · dal 2002 a oggi</small></p>
+
+    <hr />
+
+    {%- for e in eventi | reverse %}
+    {%- if not loop.first %}<hr>{% endif %}
+    <h3 id="e-{{ e.data }}">{{ e.titolo }} <small>{{ e.tipo }}</small></h3>
+
+    <p>
+        <strong>Quando</strong> {{ e.data_testo }}{% if e.orario %}, {{ e.orario }}{% endif %}<br>
+        <strong>Dove</strong> {{ e.sede }}{% if e.indirizzo %} — {{ e.indirizzo }}{% elif e.citta %} — {{ e.citta }}{% endif %}
+        {%- if e.tema %}<br><strong>Tema</strong> {{ e.tema }}{% endif %}
+        {%- if e.con %}<br><strong>Con</strong> {{ e.con | join(sep=" · ") }}{% endif %}
+        {%- if e.patrocinio %}<br><strong>Patrocinio</strong> {{ e.patrocinio | join(sep=" · ") }}{% endif %}
+        {%- if e.sponsor %}<br><strong>Sponsor</strong> {{ e.sponsor | join(sep=" · ") }}{% endif %}
+        {%- if e.media_partner %}<br><strong>Media partner</strong> {{ e.media_partner | join(sep=" · ") }}{% endif %}
+        {%- if e.certezza == "parziale" %}<br><small><em>Dato incerto: {{ e.incertezza }}</em></small>{% endif %}
+    </p>
+
+    {%- if e.descrizione %}{{ e.descrizione | markdown | safe }}{% endif %}
+
+    {%- if e.talk %}
+    {%- set_global sezione = "" %}
+    {%- for t in e.talk %}
+    {%- if t.sezione and t.sezione != sezione %}
+    {%- if not loop.first %}</ul>{% endif %}
+    {%- set_global sezione = t.sezione %}
+    <p><em>{{ t.sezione }}</em></p>
+    <ul>
+    {%- elif loop.first %}
+    <ul>
+    {%- endif %}
+        <li>
+            {%- if t.ora %}{{ t.ora }} · {% endif %}<strong>{{ t.titolo }}</strong>
+            {%- if t.relatori %} — {{ t.relatori | join(sep=", ") }}{% endif %}
+            {%- if t.slide %} <a href="{{ get_url(path=t.slide | urlencode) | safe }}">↓ {% if t.slide_tipo == "video" %}video{% else %}slide{% endif %}</a>{% endif %}
+            {%- if t.nota %}<br><small><em>{{ t.nota }}</em></small>{% endif %}
+        </li>
+    {%- if loop.last %}</ul>{% endif %}
+    {%- endfor %}
+    {%- elif not e.futuro %}
+    <p><small>Il programma di dettaglio non è stato conservato dagli archivi.</small></p>
+    {%- endif %}
+
+    <p><small>
+        {%- if e.locandina %}<a href="{{ get_url(path=e.locandina | urlencode) | safe }}">locandina</a> · {% endif -%}
+        {%- if e.foto %}<a href="{{ e.foto }}">foto</a> · {% endif -%}
+        {%- if e.slide_esterne %}<a href="{{ e.slide_esterne }}">slide</a> · {% endif -%}
+        {%- if e.sito %}<a href="{{ e.sito }}">{{ e.sito_etichetta | default(value="sito dell'evento") }}</a> · {% endif -%}
+        fonti: {{ e.fonti | join(sep=", ") }}
+        {%- if e.fonti_esterne %} · fonti esterne: {{ e.fonti_esterne | join(sep=", ") }}{% endif %}
+    </small></p>
+    {%- endfor %}
+
+    <hr />
+    <h2 id="struttura">Come è stata organizzata</h2>
+    {%- for p in org.periodo %}
+    <h3>{{ p.nome }} <small>{{ p.anni }}</small></h3>
+    <p>
+        {%- if p.sede %}<strong>Sede</strong> {{ p.sede }}<br>{% endif %}
+        {%- if p.sito %}<strong>Sito</strong> {{ p.sito }}<br>{% endif %}
+        {%- if p.canali %}<strong>Canali</strong> {{ p.canali | join(sep=" · ") }}{% endif %}
+    </p>
+    {{ p.governance | markdown | safe }}
+    {%- if p.note %}{{ p.note | markdown | safe }}{% endif %}
+    {%- endfor %}
+
+    <hr />
+    <h2 id="conversazioni">Le conversazioni</h2>
+
+    <p>Prima dei social, la vita quotidiana del gruppo stava in una mailing list e in
+    un forum. Della lista resta pochissimo: quattro fotografie dell'indice, da cui si
+    conoscono gli oggetti delle discussioni ma non il loro contenuto. Il forum invece
+    è sopravvissuto per intero.</p>
+
+    <h3>Le mailing list</h3>
+    <ul>
+        {%- for l in conv.lista %}
+        <li><strong>{{ l.indirizzo }}</strong> <small>{{ l.anni }}</small><br>
+            {{ l.nota }} <small>Archivio: {{ l.archivio }}.</small></li>
+        {%- endfor %}
+    </ul>
+
+    <h3>Quello che resta di <code>irlug-talk</code></h3>
+    {%- for m in conv.mese %}
+    <h4>{{ m.nome }} <small>snapshot del {{ m.snapshot }}</small></h4>
+    <p><small>{{ m.thread | length }} discussioni, {{ m.messaggi }} messaggi,
+       dal n° {{ m.primo_messaggio }} al n° {{ m.ultimo_messaggio }}</small></p>
+    <ul>
+        {%- for t in m.thread %}
+        <li><strong>{{ t.oggetto }}</strong> — <small>{{ t.messaggi }} messagg{{ "io" if t.messaggi == 1 else "i" }}, n° {{ t.numero }}</small></li>
+        {%- endfor %}
+    </ul>
+    {%- endfor %}
+
+    <h3>Il forum di irlug.org</h3>
+    <p>{{ conv.discussione | length }} discussioni fra il 2003 e il 2004, recuperate per
+    intero dagli snapshot del sito. È l'unico archivio di conversazioni di quegli anni
+    sopravvissuto con i testi.</p>
+    {%- set_global sezione_forum = "" %}
+    {%- for d in conv.discussione %}
+    {%- if d.sezione != sezione_forum %}
+    {%- if not loop.first %}</ul>{% endif %}
+    {%- set_global sezione_forum = d.sezione %}
+    <p><em>{{ d.sezione }}</em></p>
+    <ul>
+    {%- elif loop.first %}
+    <ul>
+    {%- endif %}
+        <li><strong>{{ d.titolo }}</strong> — <small>{{ d.interventi }} intervent{{ "o" if d.interventi == 1 else "i" }},
+            {% if d.dal == d.al %}{{ d.dal }}{% else %}{{ d.dal }} → {{ d.al }}{% endif %}
+            {%- if d.autori %} · {{ d.autori | join(sep=", ") }}{% endif %}</small></li>
+    {%- if loop.last %}</ul>{% endif %}
+    {%- endfor %}
+
+    <hr />
+    <h2 id="persone">Le persone</h2>
+    {%- for g in org.gruppo_persone %}
+    <h3>{{ g.titolo }} <small>{{ g.periodo }}</small></h3>
+    {%- if g.descrizione %}<p>{{ g.descrizione }}</p>{% endif %}
+    <ul>
+        {%- for p in g.persona %}
+        <li><strong>{{ p.nome }}</strong>{% if p.alias %} «{{ p.alias }}»{% endif %} — {{ p.nota }}</li>
+        {%- endfor %}
+    </ul>
+    {%- endfor %}
+
+    <hr />
+    <h2 id="organizzazioni">Le organizzazioni</h2>
+    {%- for g in org.gruppo_org %}
+    <h3>{{ g.titolo }}</h3>
+    <ul>
+        {%- for o in g.org %}
+        <li><strong>{{ o.nome }}</strong>{% if o.nota %} — {{ o.nota }}{% endif %}</li>
+        {%- endfor %}
+    </ul>
+    {%- endfor %}
+
+    <hr />
+    <h2 id="sedi">Le sedi</h2>
+    <ul>
+        {%- for s in org.sede %}
+        <li><strong>{{ s.nome }}</strong> <small>{{ s.anni }}{% if s.citta %} · {{ s.citta }}{% endif %}</small>
+            {%- if s.nota %} — {{ s.nota }}{% endif %}</li>
+        {%- endfor %}
+    </ul>
+</article>
+{%- endblock -%}

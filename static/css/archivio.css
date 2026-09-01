@@ -1,0 +1,9 @@
+/* Separatore fra le voci dell'archivio.
+   Richiama il punteggiato sotto il titolo di pagina, ma piu' sottile: la' marca
+   la testata, qui serve solo uno stacco fra un evento e il successivo.
+   Scoped ad .archivio perche' il tema usa `hr` anche nei post del blog. */
+.archivio hr {
+    height: 0;
+    background: none;
+    border-bottom: 1px dotted var(--accent-color);
+}

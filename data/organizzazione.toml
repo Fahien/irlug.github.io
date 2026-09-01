@@ -1,0 +1,309 @@
+# Struttura associativa, persone e organizzazioni: la parte dell'archivio che non
+# sta dentro un singolo evento. Fonti come in eventi.toml.
+
+# ---------------------------------------------------------------- periodi / assetti
+[[periodo]]
+nome = "La fondazione"
+anni = "2002 – 2005"
+sede = "Studio Somma, Via Iannacchini 28, Avellino"
+sito = "irlug.org (PHP-Nuke)"
+canali = ["mailing list irlug-talk", "canale IRC #irlug su irc.azzurranet.org", "forum sul sito"]
+governance = """
+Il Manifesto, pubblicato il 25 novembre 2002 e aggiornato il 19 aprile 2003, definisce \
+un'associazione senza scopo di lucro, ad adesione libera e gratuita, con tre figure: \
+**IRLug Founder** (chi ha fondato il gruppo), **IRLug PR** (il gruppo di coordinamento) \
+e **IRLug User** (gli iscritti al sito). Esiste un consiglio direttivo, che tiene la sua \
+prima riunione — «virtual-riunione» — il 17 novembre 2003. Tutto il materiale prodotto a \
+nome del LUG va distribuito sotto licenza GPL, LGPL o GFDL.
+"""
+note = """
+Il Manifesto conteneva anche una clausola di non discriminazione esplicita — «nessuna \
+restrizione di razza, colore, sesso, religione, stato di salute o condizione fisica, \
+censo» — e una regola geografica curiosa: l'adesione è aperta a tutti, ma l'azione \
+dell'associazione resta legata all'Irpinia.
+"""
+
+[[periodo]]
+nome = "La riorganizzazione"
+anni = "2005 – 2006"
+sito = "irlug.altervista.org"
+canali = ["mailing list temporanea su rebelsoft.org", "canale IRC #irlug su irc.azzurra.net"]
+governance = """
+Anni di transizione. Il sito su irlug.org si spegne e il gruppo si sposta su un sito \
+statico ospitato su Altervista, curato da Giuseppe Lucarelli su un tema di haran preso \
+da Open Source Web Design. La home avvisa: «Causa riorganizzazione del LUG, la mailing \
+list non è al momento disponibile». Il dominio irlug.org viene perso e finisce a un \
+domain squatter, che lo tiene fino ai primi anni Dieci.
+"""
+
+[[periodo]]
+nome = "Gli anni Drupal"
+anni = "2006 – 2013"
+sito = "irlug.it (Drupal)"
+canali = ["mailing list di coordinamento", "forum del sito", "canale IRC #irlug"]
+governance = """
+Il 24 luglio 2006 va online la beta del nuovo sito sul dominio irlug.it. \
+Le spese di hosting sono coperte da donazioni dei soci, elencate pubblicamente nella \
+pagina *About*: prima Pasquale Ceres, Giuseppe Lucarelli, Francesco Matarazzo, \
+Gianluigi Spagnuolo e Giuseppe Zoccano; poi anche Orlando Festa, Luisa Tatoli, \
+Michele Carmine Giordano, Cosimo Guglielmucci, Giuseppe Scalzi e «KyAngel».
+"""
+note = """
+Fra il 2009 e il 2013 l'attività si dirada fino a fermarsi: la pagina del Linux Day 2013 \
+ammette che «per alcuni anni la manifestazione è saltata ad Avellino».
+"""
+
+[[periodo]]
+nome = "La seconda vita"
+anni = "2013 – oggi"
+sede = "c/o Rollstudio, Via F. Iannacone 29, Avellino (sede storica di questa fase)"
+sito = "irlug.it (Jekyll, poi Zola)"
+canali = ["Telegram", "Facebook", "Instagram", "YouTube", "Flickr", "GitHub", "mailing list"]
+governance = """
+Il gruppo riparte come «associazione culturale IrLUG» e allarga il raggio: non più solo \
+Linux Day, ma anche Arduino Day, e collaborazioni stabili con LUG e community vicine. \
+Cambia anche il modo di costruire gli eventi: dal 2019 la call for talks è pubblica, \
+dal 2023 c'è la prenotazione online, e il supporto all'installazione per chi porta il \
+proprio portatile diventa una costante di ogni edizione.
+"""
+
+# ---------------------------------------------------------------- persone
+[[gruppo_persone]]
+titolo = "I fondatori"
+periodo = "2002"
+descrizione = "L'«IRLug Founder Group» elencato sul sito storico, con le descrizioni che si erano dati da soli."
+[[gruppo_persone.persona]]
+nome = "Pasquale Ceres"
+alias = "Paco"
+nota = "Classe '74. Si occupava di veicoli ecologici alternativi presso il Centro Ricerche FIAT."
+[[gruppo_persone.persona]]
+nome = "Tommaso D'Argenio"
+alias = "oberon"
+nota = "Classe '74. Web developer; coordinatore nazionale della mailing list italiana su PHP nata su ZioBudda.Net. È chi mise online il primo sito, il 5 gennaio 2003."
+[[gruppo_persone.persona]]
+nome = "Valentina Masullo"
+nota = "Classe '82. Studentessa, appassionata di grafica, webdesign e PHP; moderatrice del forum HTML di webmasterpoint.org."
+[[gruppo_persone.persona]]
+nome = "Gianluigi Spagnuolo"
+alias = "kirash"
+nota = "Studente. Programmazione, sicurezza informatica, reti, sistemi operativi liberi e buddismo zen. Fra i fondatori anche dell'Italian Ruby User Group. Autore della documentazione su OpenBSD, PF e kernel raccolta nella sezione Docs."
+[[gruppo_persone.persona]]
+nome = "Giuseppe Zoccano"
+alias = "GiZo"
+nota = "Studente di Ingegneria Informatica alla Federico II, originario di Greci (AV). Coordinatore di diverse edizioni del Linux Day."
+
+[[gruppo_persone]]
+titolo = "La prima stagione"
+periodo = "2003 – 2009"
+descrizione = "Chi firma le notizie, tiene i talk, cura la documentazione o sostiene le spese nei primi anni."
+[[gruppo_persone.persona]]
+nome = "Giuseppe Borriello"
+alias = "Bgeppy"
+nota = "IPSIA «S. Bartoli» di Montella. Talk su distribuzioni live e Knoppix al Linux Day 2004; installò le prime macchine in sede, una Knoppix 3.4 su un Pentium II 333 MHz."
+[[gruppo_persone.persona]]
+nome = "Marisa Bruno"
+alias = "Marys"
+nota = "Introduzione a GNU/Linux al Linux Day 2004."
+[[gruppo_persone.persona]]
+nome = "Giuseppe Lucarelli"
+alias = "luk"
+nota = "Curatore del sito su Altervista e poi del sito Drupal su irlug.it."
+[[gruppo_persone.persona]]
+nome = "Francesco Matarazzo"
+nota = "Talk su anonimato e free software (2007) e su Bitcoin (2015); fra i sostenitori delle spese di hosting."
+[[gruppo_persone.persona]]
+nome = "Cosimo Guglielmucci"
+nota = "Talk su FOSS e sviluppo economico (2007) e su Bitcoin e criptomonete (2014)."
+[[gruppo_persone.persona]]
+nome = "Roberto Lenti"
+alias = "Bobbix"
+nota = "Organizzò da solo la presentazione sul software libero a Manocalzati nel 2009."
+
+[[gruppo_persone]]
+titolo = "La seconda vita"
+periodo = "2013 – oggi"
+descrizione = "Chi ha tenuto in piedi il gruppo dalla ripartenza del 2013 in poi. Molti sono tornati sul palco per più di dieci anni."
+[[gruppo_persone.persona]]
+nome = "Gennaro «Rino» Ragucci"
+nota = "Ha aperto il Linux Day nel 2013, 2014, 2017, 2018 e 2019, e l'Arduino Day 2015. La voce delle introduzioni per sei edizioni."
+[[gruppo_persone.persona]]
+nome = "Hermann Magliacane"
+nota = "Sul palco dal 2007 al 2025: dall'«aspetto unitario» di Linux al retrogaming, dalla domotica al cloud. Autore della maggior parte degli annunci sul blog attuale."
+[[gruppo_persone.persona]]
+nome = "Patrick Arminio"
+nota = "Talk su Python (2013) ed Elasticsearch (2014); autore dei post del blog nella fase 2014-2015."
+[[gruppo_persone.persona]]
+nome = "Gaetano Pila"
+nota = "Cinque edizioni: Bluetooth hacking (2015), Docker (2017), Termux (2018), REST API (2019), KrakenD (2023)."
+[[gruppo_persone.persona]]
+nome = "Giuseppe Luciano"
+nota = "PHP7 (2015), data economy (2017), realtà aumentata (2018), Open Hospital (2019)."
+[[gruppo_persone.persona]]
+nome = "Pietro Terracciano"
+nota = "Visual Studio Code (2018), posizionamento Android (2023), REST API su Ubuntu (2024), crittografia (2025)."
+[[gruppo_persone.persona]]
+nome = "Saverio Fruncillo"
+nota = "Certificazioni Linux (2019), IPv6 e presentazione (2023), Wi-Fi (2024), SELinux (2025)."
+[[gruppo_persone.persona]]
+nome = "Angelo Ciampa"
+nota = "Sorveglianza e privacy (2017), privilege escalation (2024), web hacking (2025)."
+[[gruppo_persone.persona]]
+nome = "Antonio Caggiano"
+nota = "Lo stack grafico di Linux (2024), raytracing in Godot (2025). Cura il sito attuale."
+[[gruppo_persone.persona]]
+nome = "Noemi Innocente"
+nota = "Progetto grafico delle locandine del Linux Day 2018, dell'Arduino Day 2018 e del Linux Day 2019."
+[[gruppo_persone.persona]]
+nome = "Davide Mele"
+nota = "Il self balancing robot, portato in due versioni successive all'Arduino Day 2018 e al Linux Day 2018."
+
+[[gruppo_persone]]
+titolo = "Chi fa cosa oggi"
+periodo = "2026"
+descrizione = """
+L'IrLUG non ha mai avuto un organigramma: i compiti se li sono presi le persone che \
+c'erano. Questa è la divisione informale del lavoro con cui si tengono in piedi gli \
+eventi di oggi."""
+[[gruppo_persone.persona]]
+nome = "Hermann Magliacane"
+nota = "Relazioni pubbliche, ricerca della sede, richiesta del materiale Linux Day, form della call for talks, inviti agli ospiti. È anche chi, nel 2011, ha riportato il Linux Day ad Avellino."
+[[gruppo_persone.persona]]
+nome = "Patrick Arminio"
+nota = "Presidente formale."
+[[gruppo_persone.persona]]
+nome = "Antonio Caggiano"
+nota = "Gestione del sito."
+[[gruppo_persone.persona]]
+nome = "Simone D'Anna"
+nota = "Streaming e dirette."
+[[gruppo_persone.persona]]
+nome = "Saverio Fruncillo"
+nota = "Organizzazione audiovisiva."
+[[gruppo_persone.persona]]
+nome = "Gaetano Pila e Noemi Innocente"
+nota = "Grafica delle locandine."
+[[gruppo_persone.persona]]
+nome = "Roxana"
+nota = "Social media management."
+[[gruppo_persone.persona]]
+nome = "Giuseppe Luciano e Pietro Terracciano"
+nota = "Fra i relatori più costanti delle ultime dieci edizioni."
+
+# ---------------------------------------------------------------- organizzazioni
+[[gruppo_org]]
+titolo = "Il movimento del software libero"
+[[gruppo_org.org]]
+nome = "Italian Linux Society (ILS)"
+nota = "Promotrice del Linux Day nazionale, cui l'IrLUG aderisce dal 2003. Il presidente Michele Dalla Silvestra intervenne alla giornata del 2004."
+[[gruppo_org.org]]
+nome = "Free Software Foundation Europe — Chapter Italy"
+nota = "Stefano Maffulli, allora presidente, parlò in due delle tre sedi della giornata del 2004."
+[[gruppo_org.org]]
+nome = "Associazione Software Libero"
+nota = "Leandro Noferini e Antonella Beccaria a Montella, 2004."
+
+[[gruppo_org]]
+titolo = "LUG, hacklab e community"
+[[gruppo_org.org]]
+nome = "CasertaLUG"
+nota = "Con l'IrLUG nella protesta del 2003 contro la brevettabilità del software."
+[[gruppo_org.org]]
+nome = "NaLUG e Neapolis Hacklab"
+nota = "Presenti al Linux Day 2004 e nella rete campana del 2007."
+[[gruppo_org.org]]
+nome = "HCSSLUG"
+nota = "Il LUG di Cava de' Tirreni: co-organizzatore dell'Arduino Day 2016, media partner del Linux Day 2018 e 2019."
+[[gruppo_org.org]]
+nome = "Hackaserta 81100, Hop Frog, Associazione Omega, kde-it, Net-left, CoCaOss"
+nota = "La rete di associazioni campane del GNU/LinuxFest 2007 a Napoli."
+[[gruppo_org.org]]
+nome = "GDG Campania, TechCoffee, DevDay Avellino"
+nota = "Community tecnologiche del territorio, partner delle edizioni 2015, 2018 e 2019."
+
+[[gruppo_org]]
+titolo = "Istituzioni e scuole"
+[[gruppo_org.org]]
+nome = "Comune di Avellino"
+nota = "Patrocinio dell'Assessorato alle Politiche Giovanili al Linux Day 2004."
+[[gruppo_org.org]]
+nome = "Comune di Mercogliano"
+nota = "Patrocinio del Linux Day 2014, con sindaco e assessora ai saluti istituzionali."
+[[gruppo_org.org]]
+nome = "Comune di Manocalzati e Informagiovani"
+nota = "Ospitarono la presentazione del 2009."
+[[gruppo_org.org]]
+nome = "IPSIA «Amatucci» e ITC «G. Fortunato» (Avellino), IPSIA «S. Bartoli» (Montella), IC «Mercogliano», ITIS «G. Marconi», ITIS Dorso, IS Rampone Polo (BN), IC Aurigemma (Monteforte Irpino)"
+nota = "Le scuole che negli anni hanno ospitato gli eventi o portato i propri studenti sul palco."
+
+[[gruppo_org]]
+titolo = "Aziende e spazi"
+[[gruppo_org.org]]
+nome = "AbelLinux, XED.IT"
+nota = "Con l'IrLUG nella giornata del software libero del 2004."
+[[gruppo_org.org]]
+nome = "Analist Group"
+nota = "Ospitò il Linux Day 2018 nella propria sede di Mercogliano."
+[[gruppo_org.org]]
+nome = "Rollstudio"
+nota = "Sede dell'associazione nella fase 2014-2019 e partner del Linux Day 2015."
+[[gruppo_org.org]]
+nome = "Perlatecnica, Open Makers Italy, 3D-RAP, DAM Bros Robotics, Ethical Hacking Dojo"
+nota = "Il giro maker e sicurezza degli Arduino Day e dei Linux Day 2015-2018."
+[[gruppo_org.org]]
+nome = "Lumaca Irpina, Skynet, DNMusic, Coordinate Sonore"
+nota = "Sponsor e media partner delle edizioni più recenti."
+
+# ---------------------------------------------------------------- sedi
+[[sede]]
+nome = "Studio Somma"
+citta = "Avellino"
+anni = "2004 – 2005"
+nota = "La prima sede, in Via Iannacchini. Qui furono installate le prime macchine del LUG."
+[[sede]]
+nome = "IPSIA «Amatucci»"
+citta = "Avellino"
+anni = "2004"
+nota = "Prima install fest e convegno della giornata del software libero."
+[[sede]]
+nome = "Palazzo della cultura «Victor Hugo»"
+citta = "Avellino"
+anni = "2004"
+nota = "Linux Day 2004."
+[[sede]]
+nome = "CSA Malepasso"
+citta = "Avellino"
+anni = "2005"
+nota = "Seconda install fest."
+[[sede]]
+nome = "Garage Records"
+citta = "Avellino"
+anni = "2006 – 2007"
+nota = "Due Linux Day di fila in un locale di via Guarini."
+[[sede]]
+nome = "Ex Carcere Borbonico"
+citta = "Avellino"
+anni = "2013, 2015, 2018"
+nota = "Linux Day 2013, Arduino Day 2015 e Arduino Day 2018 (Sala «Ripa»)."
+[[sede]]
+nome = "TILT"
+citta = "Avellino"
+anni = "2015, 2017"
+nota = "Due Linux Day."
+[[sede]]
+nome = "Analist Group"
+citta = "Mercogliano"
+anni = "2018"
+[[sede]]
+nome = "Casino del Principe"
+citta = "Avellino"
+anni = "2019"
+nota = "Linux Day 2019; era anche la sede scelta per l'Arduino Day 2020, mai tenuto."
+[[sede]]
+nome = "AiBur — Associazione Irpinia Burraco"
+citta = "Avellino"
+anni = "2023"
+[[sede]]
+nome = "Sede della Misericordia"
+citta = "Avellino"
+anni = "2024 – 2025"
+nota = "Via Tagliamento 233: la sede delle due edizioni più recenti."

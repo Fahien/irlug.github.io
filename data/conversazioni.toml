@@ -1,0 +1,479 @@
+# Le conversazioni: mailing list e forum.
+#
+# Generato da scraping/wayback-irlug-mailinglist.py e poi rifinito a mano.
+# Della mailing list restano solo quattro fotografie dell'indice ezmlm: di ogni
+# thread si conosce l'oggetto e il numero del primo messaggio, non il contenuto.
+# Il forum invece e' sopravvissuto per intero negli snapshot del sito PHP-Nuke.
+
+
+# ---------------------------------------------------------------- le liste
+
+[[lista]]
+indirizzo = "irlug-talk@irlug.org"
+anni = "2003 – 2005"
+software = "ezmlm"
+archivio = "ezmlm-cgi su webmail.irlug.org/mail/"
+nota = "La lista storica. E' l'unica di cui resti qualcosa: quattro snapshot dell'indice, presi fra il febbraio 2004 e il marzo 2005."
+
+[[lista]]
+indirizzo = "irlug@rebelsoft.org"
+anni = "2005 – 2006"
+software = "ezmlm"
+archivio = "nessuno"
+nota = "La lista temporanea aperta durante la riorganizzazione, quando quella storica smise di funzionare. Non ne resta nulla."
+
+[[lista]]
+indirizzo = "ml@irlug.it"
+anni = "2006 – 2013"
+software = "ezmlm"
+archivio = "nessuno"
+nota = "La lista dell'era Drupal, usata per il coordinamento; il forum del sito serviva invece per le richieste di aiuto. Non ne resta nulla."
+
+
+# ---------------------------------------------------------------- i mesi superstiti
+
+[[mese]]
+chiave = "200402"
+nome = "febbraio 2004"
+snapshot = "11 febbraio 2004"
+primo_messaggio = 375
+ultimo_messaggio = 401
+messaggi = 30
+
+[[mese.thread]]
+oggetto = "Re: Cd Debian distro"
+messaggi = 4
+numero = 375
+
+[[mese.thread]]
+oggetto = "jabber"
+messaggi = 1
+numero = 380
+
+[[mese.thread]]
+oggetto = "Re: Stasera su #irlug"
+messaggi = 3
+numero = 381
+
+[[mese.thread]]
+oggetto = "Riunione spostata alle 23"
+messaggi = 1
+numero = 382
+
+[[mese.thread]]
+oggetto = "Installation party"
+messaggi = 2
+numero = 386
+
+[[mese.thread]]
+oggetto = "modem gprs"
+messaggi = 4
+numero = 394
+
+[[mese.thread]]
+oggetto = "Re: Linux a scuola"
+messaggi = 8
+numero = 396
+
+[[mese.thread]]
+oggetto = "Re: tutti i martedi su #irlug"
+messaggi = 3
+numero = 397
+
+[[mese.thread]]
+oggetto = "Re: Un saluto e +"
+messaggi = 4
+numero = 401
+
+[[mese]]
+chiave = "200405"
+nome = "maggio 2004"
+snapshot = "7 maggio 2004"
+primo_messaggio = 778
+ultimo_messaggio = 781
+messaggi = 4
+
+[[mese.thread]]
+oggetto = "la chat langue !!??"
+messaggi = 1
+numero = 778
+
+[[mese.thread]]
+oggetto = "\"Psicopatologia degli utenti Linux\""
+messaggi = 1
+numero = 779
+
+[[mese.thread]]
+oggetto = "Re: Disto, novita'"
+messaggi = 2
+numero = 781
+
+[[mese]]
+chiave = "200412"
+nome = "dicembre 2004"
+snapshot = "9 dicembre 2004"
+primo_messaggio = 1192
+ultimo_messaggio = 1203
+messaggi = 26
+
+[[mese.thread]]
+oggetto = "Re: XP non aggiornato? Infetto in quattro minuti"
+messaggi = 2
+numero = 1192
+
+[[mese.thread]]
+oggetto = "Re: Saluti ed info"
+messaggi = 4
+numero = 1193
+
+[[mese.thread]]
+oggetto = "Re: Saluti ed infoNetscape rinasce da un incrocio fraFirefoxe...Internet Explorer?"
+messaggi = 5
+numero = 1199
+
+[[mese.thread]]
+oggetto = "Re: aggiunta di memoria DIMM"
+messaggi = 15
+numero = 1203
+
+[[mese]]
+chiave = "200503"
+nome = "marzo 2005"
+snapshot = "9 marzo 2005"
+primo_messaggio = 1279
+ultimo_messaggio = 1331
+messaggi = 59
+
+[[mese.thread]]
+oggetto = "Re: incontro"
+messaggi = 6
+numero = 1279
+
+[[mese.thread]]
+oggetto = "Re:[irlug-talk] incontro"
+messaggi = 2
+numero = 1280
+
+[[mese.thread]]
+oggetto = "GNU day"
+messaggi = 1
+numero = 1282
+
+[[mese.thread]]
+oggetto = "Publicità ingannevole !?"
+messaggi = 1
+numero = 1289
+
+[[mese.thread]]
+oggetto = "Re: Drammatica Post-Riunione"
+messaggi = 14
+numero = 1315
+
+[[mese.thread]]
+oggetto = "Re: Drammatica Post-Riunione (was: Riunione diLunedi7 Marzo)"
+messaggi = 7
+numero = 1316
+
+[[mese.thread]]
+oggetto = "Re: Re:Drammatica Post-Riunione (basta!)"
+messaggi = 2
+numero = 1319
+
+[[mese.thread]]
+oggetto = "Re: Riunione di Lunedi 7 Marzo"
+messaggi = 10
+numero = 1321
+
+[[mese.thread]]
+oggetto = "Re: Proposta operativa"
+messaggi = 16
+numero = 1331
+
+
+# ---------------------------------------------------------------- il forum
+
+[[discussione]]
+titolo = "Scandisk"
+sezione = "Amministrazione distro"
+interventi = 6
+dal = "30-05-2004"
+al = "10-06-2004"
+autori = ["saverio", "ximus"]
+
+[[discussione]]
+titolo = "ADSL alice"
+sezione = "Configurazione"
+interventi = 4
+dal = "17-10-2004"
+al = "06-12-2004"
+autori = ["saverix"]
+
+[[discussione]]
+titolo = "Configurazione seriali Macintosh e YDL 3.0"
+sezione = "Configurazione"
+interventi = 2
+dal = "25-07-2003"
+al = "28-07-2003"
+
+[[discussione]]
+titolo = "fortemedia"
+sezione = "Configurazione"
+interventi = 7
+dal = "24-11-2004"
+al = "27-11-2004"
+
+[[discussione]]
+titolo = "gprs"
+sezione = "Configurazione"
+interventi = 2
+dal = "20-04-2004"
+al = "22-04-2004"
+
+[[discussione]]
+titolo = "Linux e Soluzioni Integrate"
+sezione = "Configurazione"
+interventi = 2
+dal = "02-01-2004"
+al = "13-02-2004"
+autori = ["Mimmo"]
+
+[[discussione]]
+titolo = "Mount del floppy"
+sezione = "Configurazione"
+interventi = 2
+dal = "16-12-2003"
+al = "28-12-2003"
+autori = ["nemoprincess"]
+
+[[discussione]]
+titolo = "config adsl"
+sezione = "Configurazione distro"
+interventi = 3
+dal = "07-07-2003"
+al = "13-02-2004"
+autori = ["Mimmo", "axel"]
+
+[[discussione]]
+titolo = "Configurare Ati Radeon 9000 per kdm"
+sezione = "Configurazione distro"
+interventi = 10
+dal = "30-05-2004"
+al = "02-06-2004"
+autori = ["bgeppy", "giuluk", "ximus"]
+
+[[discussione]]
+titolo = "Configurazione scanner"
+sezione = "Configurazione distro"
+interventi = 2
+dal = "21-05-2003"
+al = "13-02-2004"
+autori = ["Mimmo"]
+
+[[discussione]]
+titolo = "Partizioni Mandrake 10.1"
+sezione = "Configurazione distro"
+interventi = 2
+dal = "23-11-2004"
+al = "02-12-2004"
+
+[[discussione]]
+titolo = "phppnuke in locale"
+sezione = "Configurazione distro"
+interventi = 3
+dal = "29-05-2004"
+al = "30-05-2004"
+autori = ["ximus"]
+
+[[discussione]]
+titolo = "tv con mandrake 10.0"
+sezione = "Configurazione distro"
+interventi = 2
+dal = "11-07-2004"
+al = "14-07-2004"
+autori = ["ximus"]
+
+[[discussione]]
+titolo = "CERCO SVILUPPATORE WEB/SITEMISTA LINUX A NAPOLI"
+sezione = "Eventi"
+interventi = 1
+dal = "11-06-2003"
+al = "11-06-2003"
+
+[[discussione]]
+titolo = "Hackit napoli"
+sezione = "Eventi"
+interventi = 1
+dal = "23-09-2004"
+al = "23-09-2004"
+autori = ["pnluck_"]
+
+[[discussione]]
+titolo = "Incontro reali tra noi"
+sezione = "Eventi"
+interventi = 2
+dal = "02-10-2004"
+al = "02-10-2004"
+autori = ["pnluck_"]
+
+[[discussione]]
+titolo = "iscrizione mailing list"
+sezione = "Eventi"
+interventi = 2
+dal = "30-05-2004"
+al = "31-05-2004"
+autori = ["rajasi", "saverio"]
+
+[[discussione]]
+titolo = "logo del vostro sito"
+sezione = "Eventi"
+interventi = 3
+dal = "15-05-2003"
+al = "30-05-2004"
+autori = ["rajasi", "ximus"]
+
+[[discussione]]
+titolo = "Raga ho letto la news mandata alla ml"
+sezione = "Eventi"
+interventi = 5
+dal = "23-09-2004"
+al = "26-09-2004"
+autori = ["pnluck_"]
+
+[[discussione]]
+titolo = "riunione 14/11/04 x Linux Day"
+sezione = "Eventi"
+interventi = 1
+dal = "13-11-2004"
+al = "13-11-2004"
+
+[[discussione]]
+titolo = "xchè non incrementiamo sto forum?"
+sezione = "Eventi"
+interventi = 3
+dal = "16-03-2004"
+al = "24-03-2004"
+autori = ["Mimmo", "livedrive"]
+
+[[discussione]]
+titolo = "Aiuto Installazio su laptop"
+sezione = "Installazione distro"
+interventi = 7
+dal = "04-12-2004"
+al = "15-12-2004"
+autori = ["ill_penguin"]
+
+[[discussione]]
+titolo = "AIUTO x installazione mandrake community"
+sezione = "Installazione distro"
+interventi = 5
+dal = "22-11-2004"
+al = "04-12-2004"
+autori = ["raimoraf"]
+
+[[discussione]]
+titolo = "aiuto!!!!!!!!!!!!!"
+sezione = "Installazione distro"
+interventi = 2
+dal = "19-06-2004"
+al = "27-06-2004"
+autori = ["corradopasquale", "ximus"]
+
+[[discussione]]
+titolo = "Come faccio a vedere l'altra partizione dell'HD?"
+sezione = "Installazione distro"
+interventi = 4
+dal = "26-11-2004"
+al = "30-11-2004"
+
+[[discussione]]
+titolo = "Conf. Dominio"
+sezione = "Installazione distro"
+interventi = 3
+dal = "07-07-2003"
+al = "06-03-2004"
+autori = ["Mimmo", "rajasi"]
+
+[[discussione]]
+titolo = "firewall/router"
+sezione = "Installazione distro"
+interventi = 3
+dal = "20-01-2004"
+al = "27-07-2004"
+autori = ["Mimmo", "axel", "veleno72"]
+
+[[discussione]]
+titolo = "Help installazione Debian!!!"
+sezione = "Installazione distro"
+interventi = 2
+dal = "20-01-2004"
+al = "22-01-2004"
+autori = ["Inuyasha"]
+
+[[discussione]]
+titolo = "Installazione Applicazioni"
+sezione = "Installazione distro"
+interventi = 3
+dal = "06-09-2004"
+al = "28-09-2004"
+autori = ["el1073", "ximus"]
+
+[[discussione]]
+titolo = "Installazione LINUX"
+sezione = "Installazione distro"
+interventi = 4
+dal = "21-04-2003"
+al = "01-05-2003"
+
+[[discussione]]
+titolo = "installazione mandrake linux 10"
+sezione = "Installazione distro"
+interventi = 3
+dal = "03-07-2004"
+al = "04-12-2004"
+autori = ["raimoraf"]
+
+[[discussione]]
+titolo = "Installazione partitionless"
+sezione = "Installazione distro"
+interventi = 4
+dal = "24-04-2003"
+al = "30-05-2004"
+autori = ["bgeppy", "paco", "rajasi", "ximus"]
+
+[[discussione]]
+titolo = "modem hsf"
+sezione = "Installazione distro"
+interventi = 4
+dal = "27-11-2003"
+al = "16-06-2004"
+autori = ["kandahar", "saverio"]
+
+[[discussione]]
+titolo = "un saluto a tutto"
+sezione = "Installazione distro"
+interventi = 2
+dal = "11-06-2004"
+al = "13-06-2004"
+autori = ["corradopasquale", "ximus"]
+
+[[discussione]]
+titolo = "virtual machine"
+sezione = "Installazione distro"
+interventi = 4
+dal = "18-06-2004"
+al = "21-06-2004"
+
+[[discussione]]
+titolo = "Boot Process e Keyboard Driver"
+sezione = "Programmazione"
+interventi = 2
+dal = "15-10-2003"
+al = "28-10-2003"
+
+[[discussione]]
+titolo = "Floppy problem..."
+sezione = "Programmazione"
+interventi = 7
+dal = "02-05-2003"
+al = "30-05-2004"
+autori = ["paco", "ximus"]
