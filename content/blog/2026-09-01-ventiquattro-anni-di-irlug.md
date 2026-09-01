@@ -13,7 +13,7 @@ thumb: thumb01.jpg
 Nel 2003 il sito dell'IrLUG girava su PHP-Nuke, la sede era uno studio
 professionale in Via Iannacchini e per organizzare una riunione si dava
 appuntamento sul canale `#irlug` di AzzurraNet. Ventiquattro anni dopo siamo
-ancora qui, e a ottobre facciamo il dodicesimo Linux Day.
+ancora qui, e a ottobre facciamo il quindicesimo Linux Day di cui resti traccia.
 
 Questo post ripercorre la storia del gruppo. Il dettaglio — ogni evento, ogni
 programma, ogni relatore, le slide dove esistono — sta nell'[archivio
@@ -24,11 +24,11 @@ l'IrLUG ha avuto negli anni.
 
 ## Il Manifesto, novembre 2002
 
-L'IrLUG nasce nel novembre del 2002. La data che possiamo datare con precisione
-è quella del **Manifesto, pubblicato il 25 novembre 2002**: due pagine che
-definiscono un'associazione senza scopo di lucro, ad adesione libera e gratuita,
-il cui scopo è «diffondere e sostenere GNU/Linux, e il Software Libero in
-generale».
+L'IrLUG nasce nel novembre del 2002. La data di pubblicazione del **Manifesto**
+menziona **25 novembre 2002** e possiamo desumerla come data ufficiale della
+nascita di IrLUG: due pagine che definiscono un'associazione senza scopo di lucro,
+ad adesione libera e gratuita, il cui scopo è «diffondere e sostenere GNU/Linux,
+e il Software Libero in generale».
 
 C'era già dentro tutto quello che il gruppo avrebbe fatto per vent'anni:
 organizzare eventi, aiutare chi si avvicina per la prima volta a GNU/Linux,
@@ -38,8 +38,8 @@ discriminazione esplicita, e una regola geografica: l'adesione è aperta a
 chiunque, ma l'azione dell'associazione resta legata all'Irpinia.
 
 Il **Founder Group** erano cinque persone: Pasquale Ceres, Tommaso D'Argenio,
-Valentina Masullo, Gianluigi Spagnuolo e Giuseppe Zoccano. Le descrizioni che si
-erano scritti addosso raccontano un'epoca: chi lavorava sui veicoli ecologici al
+Valentina Masullo, Gianluigi Spagnuolo e Giuseppe Zoccano. Le descrizioni dei
+fondatori raccontano un'epoca: chi lavorava sui veicoli ecologici al
 Centro Ricerche FIAT, chi coordinava la più grande mailing list italiana su PHP,
 chi moderava un forum HTML, chi si interessava «di programmazione, sicurezza
 informatica, reti, sistemi operativi liberi e buddismo zen».
@@ -58,7 +58,7 @@ scaricare una ISO era un problema logistico.
 ### Di cosa si parlava
 
 La vita quotidiana del gruppo stava in due posti: la mailing list
-`irlug-talk@irlug.org` e il forum del sito. Della lista restano quattro
+`irlug-talk@irlug.org` (non più esistente) e il forum del sito. Della lista restano quattro
 fotografie dell'indice, scattate a caso dalla Wayback Machine fra il 2004 e il
 2005: si leggono gli oggetti delle discussioni, non i messaggi. Ma bastano a
 dare il tono.

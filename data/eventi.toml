@@ -1077,6 +1077,7 @@ citta = "Avellino"
 sede = "da definire"
 futuro = true
 descrizione = """
-Call for talks aperta il 31 agosto 2026. Ventiquattresimo anno del gruppo, dodicesimo \
-Linux Day irpino documentato."""
+Call for talks aperta il 31 agosto 2026. Ventiquattresimo anno del gruppo, e \
+quindicesimo Linux Day irpino di cui resti traccia: quattordici sono documentati qui, \
+dal 2004 in poi, e non è escluso che ce ne siano stati altri di cui non è rimasto nulla."""
 fonti = ["blog"]
