@@ -104,6 +104,15 @@ superstrada.[^incontro]
     rilanciò. Il voto del Parlamento europeo sulla direttiva arrivò tre settimane
     dopo, il 24 settembre 2003.
 
+[^annunci2006]: «Linux Day ad Avellino», messaggio di `T4b@cc0`
+    (tabacco2000@alice.it) alla lista `annunci` della Italian Linux Society,
+    lunedì 23 ottobre 2006:
+    [archivio della lista](https://lists.linux.it/pipermail/annunci/2006-October/000692.html).
+    Contiene il programma completo con orari e relatori, i nomi di chi curava
+    screencast e install fest, e la nota che ai visitatori sarebbero stati dati
+    «copie del CD Ubuntu Linux, di un CD con software libero per Windows e
+    materiale informativo».
+
 [^rai3]: Manlio Perillo sulla lista `debian-italian`, domenica 29 ottobre 2006,
     il giorno dopo il Linux Day: «Un membro del LUG della mia zona (Irlug) ha
     telefonato a Rai3, e questi sono venuti a fare qualche ripresa. Anzi, uno dei
@@ -145,7 +154,9 @@ Poi arrivano gli eventi veri.
   cultura «Victor Hugo», con il patrocinio del Comune di Avellino. Sette
   interventi, e nel pomeriggio la «prova su strada di Linux» all'Informagiovani.
 - **14 maggio 2005** — la [seconda Install Fest](/archivio/#e-2005-05-14) al CSA
-  Malepasso.
+  Malepasso. Ne resta una sola fotografia, ed è un ritratto di gruppo: sei
+  persone in piedi dentro un centro sociale, fra schede madri inchiodate al muro,
+  monitor CRT accesi e una scritta sul muro che dice «è come rinascere».
 
 ## 2005–2013: il lungo inverno
 
@@ -171,10 +182,11 @@ trovava quello.
 
 Il gruppo però non si ferma del tutto. Nel luglio 2006 va online `irlug.it` su
 Drupal, e con esso una nuova stagione breve ma intensa: il [Linux Day
-2006](/archivio/#e-2006-10-28) al Garage Records — di cui il programma è andato
-perduto, ma di cui sappiamo, da un messaggio scritto il giorno dopo su una lista
-Debian, che un socio telefonò a Rai3 e la troupe venne a fare le riprese («uno
-dei due giornalisti si è preso un CD di Ubuntu»)[^rai3] —, la [Giornata della Creatività
+2006](/archivio/#e-2006-10-28) al Garage Records — tre ore la mattina, con XGL e
+gli effetti 3D sul desktop, dm-crypt per cifrare il filesystem e un'introduzione
+a Gimp; e il giorno dopo, su una lista Debian, un socio raccontava che qualcuno
+aveva telefonato a Rai3 e la troupe era venuta a fare le riprese («uno dei due
+giornalisti si è preso un CD di Ubuntu»)[^rai3] —, la [Giornata della Creatività
 Giovanile](/archivio/#e-2007-05-05) a Solofra nel 2007, la trasferta a Napoli per il
 [GNU/LinuxFest](/archivio/#e-2007-06-15) a sostegno della legge regionale sul software
 libero nella PA — dove l'IrLUG portò un intervento di **Mario Torre**, *Get Used
@@ -327,8 +339,9 @@ pezzo si è salvato per un motivo diverso. I programmi del 2004 e del 2007
 esistono perché la Wayback Machine ha catturato quelle pagine; il regolamento
 dell'Install Fest 2005 è sopravvissuto come file di testo su un hosting
 gratuito; il programma del 2008 solo perché qualcuno fotografò la locandina
-all'ingresso; del Linux Day 2006, invece, sappiamo data, orario e luogo ma il
-programma era un PDF che nessuno ha archiviato, ed è perduto.
+all'ingresso; e quello del 2006 — un PDF che nessuno ha mai archiviato — solo
+perché nel 2006 si annunciavano gli eventi mandando una mail a una lista
+nazionale, e quella lista è ancora online vent'anni dopo.[^annunci2006]
 
 Per questo l'[archivio](@/archivio.md) è una pagina di questo sito e non un
 documento su qualche drive: perché stia dove sta il resto, e perché chiunque
